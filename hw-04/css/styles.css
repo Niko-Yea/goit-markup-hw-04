@@ -106,11 +106,19 @@ p{
     letter-spacing: 0.02em;
 }
 
+.contacts-header .contacts-link{
+    display: flex;
+    align-items: center;
+
+    color: var(--secondary-text-color);
+}
+
 .navlist-item-link:hover,
 .navlist-item-link:focus,
 .contacts-link:hover,
 .contacts-link:focus{
     color: var(--accent);
+    --color1: var(--accent);
 }
 
 .logo{
@@ -149,9 +157,6 @@ p{
 .contacts-header > .contacts-item:not(:first-child){
     margin-left: 50px;
 }
-.contacts-header .contacts-link{
-    color: var(--secondary-text-color);
-}
 
 .footer{
     /* min-height: 252px; */
@@ -188,19 +193,29 @@ p{
     color: var(--accent)
 }
 
+.icon-contacts{
+    margin-right: 10px;
+}
 
 
 /* maininfo index.html */
 /* hero */
 .hero{
     background-color: var(--second-bg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), 
+                                                rgba(47, 48, 58, 0.4)), 
+                                                url(../img/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+
     text-align: center;
 }
 
 .hero .container{
     padding-top: 200px;
     padding-bottom: 200px;
-    background-color: var(--second-bg);
+    /* background-color: var(--second-bg); */
 }
 
 .hero .title-hero{
