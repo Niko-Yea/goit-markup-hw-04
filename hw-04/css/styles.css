@@ -256,6 +256,7 @@ p{
 .properties-item{
     width: calc((100% - 90px) / 4);
 }
+
 .properties-item:not(:last-child){
     margin-right: 30px;
 }
@@ -277,6 +278,18 @@ p{
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
+
+.properties-item .thumb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    background-color: var(--any-bg);
+}
+
 
 /* whatwedo */
 .whatwedo .container{
@@ -362,6 +375,74 @@ p{
     font-size: 16px;
     line-height: 1.18;
 }
+
+.social{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.social .thumb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+
+}
+
+.social .thumb:hover,
+.icon-social:hover{
+    background-color: var(--accent);
+    --color4: var(--white-text);
+}
+
+.icon-social{
+    width: 20px;
+    height: 20px;
+}
+
+.social .social-link:not(:last-child){
+    margin-right: 10px;
+}
+
+
+/* clients */
+.clients .container{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.clients .title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+}
+
+.clients .clients-list{
+    display: flex;
+    margin-top: 50px;
+}
+
+.clients .icon-client{
+    width: 170px;
+    height: 90px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+}
+
+.clients .clients-item:not(:last-child){
+margin-right: 30px;
+}
+
+.clients .icon-client:hover{
+    --color4: var(--accent);
+    border: 1px solid var(--accent);
+}
+
 
 
 /* ---------------------------------------------------------------------------- */
