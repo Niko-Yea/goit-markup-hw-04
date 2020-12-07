@@ -109,16 +109,21 @@ p{
 .contacts-header .contacts-link{
     display: flex;
     align-items: center;
-
+    fill: #757575;
     color: var(--secondary-text-color);
 }
+
+.icon-contacts{
+    margin: 10px;
+}
+
 
 .navlist-item-link:hover,
 .navlist-item-link:focus,
 .contacts-link:hover,
 .contacts-link:focus{
     color: var(--accent);
-    --color1: var(--accent);
+    fill: var(--accent);
 }
 
 .logo{
@@ -193,9 +198,7 @@ p{
     color: var(--accent)
 }
 
-.icon-contacts{
-    margin-right: 10px;
-}
+
 
 .footer .social-info{
     margin-top: 12px;
@@ -313,6 +316,10 @@ p{
     border-radius: 4px;
     margin-bottom: 30px;
     background-color: var(--any-bg);
+}
+
+.properties-item .icon{
+
 }
 
 
@@ -451,10 +458,11 @@ p{
     margin-top: 50px;
 }
 
-.clients .icon-client{
+.clients .link{
     width: 170px;
     height: 90px;
     border: 1px solid #afb1b8;
+    fill: #afb1b8;
     border-radius: 4px;
 }
 
@@ -462,9 +470,14 @@ p{
 margin-right: 30px;
 }
 
-.clients .icon-client:hover{
-    --color4: var(--accent);
+.clients-item .link{
+    display: flex;
+}
+
+.clients .link:hover{
+    fill: var(--accent);
     border: 1px solid var(--accent);
+    border-radius: 4px;
 }
 
 
