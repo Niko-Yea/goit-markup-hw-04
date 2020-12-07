@@ -215,7 +215,7 @@ p{
     margin-top: 20px;
 }
 
-.social .thumb{
+.footer .social-link .link{
     background-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -405,23 +405,23 @@ p{
     margin-top: 16px;
 }
 
-.social .thumb{
+.social-link .link{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-
 }
 
-.social .thumb:hover,
+.social-link .link:hover,
 .icon-social:hover{
     background-color: var(--accent);
     --color4: var(--white-text);
 }
 
 .icon-social{
+    display: block;
     width: 20px;
     height: 20px;
 }
