@@ -218,6 +218,9 @@ p{
 .footer .social-link .link{
     background-color: rgba(255, 255, 255, 0.1);
 }
+.footer .icon-social{
+    --color4: var(--white-text);
+}
 
 
 
@@ -238,7 +241,6 @@ p{
 .hero .container{
     padding-top: 200px;
     padding-bottom: 200px;
-    /* background-color: var(--second-bg); */
 }
 
 .hero .title-hero{
@@ -369,7 +371,6 @@ p{
 
 .ourteam-list{
     display: flex;
-
 }
 .ourteam-item:not(:first-child){
     margin-left: 30px;
